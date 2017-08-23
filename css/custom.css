@@ -820,7 +820,24 @@ Nav Bar - left
 .green-bg-color{
     background: #1FCE6D;
 }
-
+.develop-bg-color{
+    background: #62C3E1;
+}
+.economic-bg-color{
+    background: #1EA185;
+}
+.other-bg-color{
+    background: #BD392F;
+}
+.royal-bg-color{
+    background: #9BBB5C;
+}
+.other-01-bg-color{
+    background: #F29B26;
+}
+.other-02-bg-color{
+    background: #F8CE34;
+}
 /*---------- button -----------*/
 .btn-fixed-width{
     width: 10rem;
