@@ -104,6 +104,12 @@ fieldset {
 .padding-around-15{
     padding: 15px !important;
 }
+.padding-around-30{
+     padding-top: 30px!important;
+     padding-left: 30px!important;
+     padding-right: 30px!important;
+     padding-bottom: 10px!important;
+}
 .no-padding{
     padding: 0 !important;
 }
@@ -1173,3 +1179,68 @@ fieldset[disabled] .btn-brand.focus {
 .badge-pass {  background-color:#41c8a0 /*#50cc7a */!important; color: #fff!important; }
 .badge-notpass {  background-color: #ef6e64 !important; color: #fff!important; }
 .badge-fullInfo { background-color: #0070D2 !important; color: #fff !important;}
+
+/*----------- TAB --------------*/
+#page-content .nav-tabs{
+    background: #fff;
+    border-top: 1px solid #EEF1F6;
+    border-bottom: 0px;
+}
+#page-content .nav>li>a {
+    padding: 5px 15px !important;
+}
+
+#page-content .nav>li {
+    width: 33.33%;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+#page-content .nav-tabs>li>a {
+     margin-right: 0px !important; 
+}
+
+#page-content .nav-tabs>li.active>a, #page-content .nav-tabs>li.active>a:focus, #page-content .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #EEF1F6;
+    border-top-color: transparent;
+    border-bottom: 2px solid #5390D6;
+}
+.section{
+    background: #FFF !important;
+}
+.section-title {
+    background: #1F3659;
+    color: #fff !important;
+    padding: 5px 15px;
+}
+.section-title > a{
+    color: #fff !important;
+}
+
+.required{
+    color: #c23934;
+    margin: 0 0.125rem;
+}
+.section .input-control {
+    display: block;
+    width: 100%;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    height: 100%;
+    box-shadow: none;
+    border: 1px solid #e9e9e9;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    transition-duration: .5s;
+    border-radius: 0px !important;
+    font-size: 1.3em !important;
+    padding: 0px 5px !important;
+    font-weight: bold;
+}

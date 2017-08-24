@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โครงการระบบภูมิสารสนเทศโครงการอันเนื่องมาจากพระราชดำริและศูนย์เรียนรู้ (ระยะที่ 2)</title>
+
+
+    <!--STYLESHEET-->
+    <!--=================================================-->
+    <!--Open Sans Font [ OPTIONAL ]-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+
+    <!--Bootstrap Stylesheet [ REQUIRED ]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!--Nifty Stylesheet [ REQUIRED ]-->
+    <link href="css/nifty.css" rel="stylesheet">
+
+
+    <!--Nifty Premium Icon [ DEMONSTRATION ]-->
+    <link href="css/demo/nifty-demo-icons.min.css" rel="stylesheet">
+
+
+    <!--Demo [ DEMONSTRATION ]-->
+    <link href="css/demo/nifty-demo.min.css" rel="stylesheet">
+     <!--Dropzone [ OPTIONAL ]-->
+    <link href="plugins/dropzone/dropzone.css" rel="stylesheet">
+
+
+    <!--Demo [ DEMONSTRATION ]-->
+    <link href="css/fonticon.css" rel="stylesheet">
+    <link href="css/fontTH.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!--JAVASCRIPT-->
+    <!--=================================================-->
+
+    <!--Pace - Page Load Progress Par [OPTIONAL]-->
+    <link href="plugins/pace/pace.min.css" rel="stylesheet">
+    <script src="plugins/pace/pace.min.js"></script>
+
+
+    <!--jQuery [ REQUIRED ]-->
+    <script src="js/jquery-2.2.4.min.js"></script>
+
+
+    <!--BootstrapJS [ RECOMMENDED ]-->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!--NiftyJS [ RECOMMENDED ]-->
+    <script src="js/nifty.min.js"></script>
+   
+    
+    <!--=================================================-->
+    
+    <!--Demo script [ DEMONSTRATION ]-->
+    <script src="js/demo/nifty-demo.min.js"></script>
+    
+         <!--Dropzone [ OPTIONAL ]-->
+    <script src="plugins/dropzone/dropzone.js"></script>
+
+
+    <!--Form File Upload [ SAMPLE ]-->
+    <script src="js/demo/form-file-upload.js"></script>
+
+</head>
+
+<!--TIPS-->
+<!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
+<body>
+    <div id="container" class="effect aside-float aside-bright mainnav-lg">
+        
+        <!--NAVBAR-->
+        <!--===================================================-->
+        <header id="navbar">
+            <div id="navbar-container" class="boxed">
+
+                <!--Brand logo & name-->
+                <!--================================-->
+                <div class="navbar-header text-center">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo.png" alt="สำนักงาน กปร." class="brand-icon">
+                        <div class="brand-title">
+                            <span class="brand-text font-th" >สำนักงานคณะกรรมการพิเศษเพื่อประสานงาน<br/>โครงการอันเนื่องมาจากพระราชดำริ (สำนักงาน กปร.)</span>
+                        </div>
+                    </a>
+                </div>
+                <!--================================-->
+                <!--End brand logo & name-->
+                <!--Navbar Dropdown-->
+                <!--================================-->
+                <div class="navbar-content clearfix">
+                    <ul class="nav navbar-top-links pull-left">
+
+                        <!--Navigation toogle button-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li class="tgl-menu-btn">
+                            <a class="mainnav-toggle text-white" href="#">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End Navigation toogle button-->
+                    </ul>
+                    
+                    <div class="nav navbar-top-links pull-left text-center hidden-xs" style="width: 80%;">
+                        <h4 class="font-th text-white text-bold font-size-20" style="margin-top: 10px;">โครงการระบบภูมิสารสนเทศโครงการอันเนื่องมาจากพระราชดำริและศูนย์เรียนรู้ (ระยะที่ 2)</h4>
+                    </div>
+                    <ul class="nav navbar-top-links pull-right ">
+                        <!--User dropdown-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li id="dropdown-user" class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle text-right text-white">
+                                <span class="pull-right" style="font-size: 1.5em;">
+                                    <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                </span>
+                            </a>
+
+
+                            <div class="dropdown-menu dropdown-menu-md dropdown-menu-right panel-default">
+                                <!-- User dropdown menu -->
+                                <ul class="head-list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="demo-pli-male icon-lg icon-fw"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="demo-pli-gear icon-lg icon-fw"></i> Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="demo-pli-information icon-lg icon-fw"></i> Help
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <!-- Dropdown footer -->
+                                <div class="pad-all text-right">
+                                    <a href="pages-login.html" class="btn btn-primary">
+                                        <i class="demo-pli-unlock"></i> Logout
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End user dropdown-->
+                        <!--User dropdown-->
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <li id="dropdown-user" class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle text-right text-white">
+                                <span class="pull-right" style="font-size: 1.5em;">
+                                    <i class="fa fa-cog" aria-hidden="true"></i>
+                                </span>
+                            </a>
+
+
+                            <div class="dropdown-menu dropdown-menu-md dropdown-menu-right panel-default">
+                                <!-- User dropdown menu -->
+                                <ul class="head-list">
+                                    <li>
+                                        <a href="#">
+                                            <i class="demo-pli-male icon-lg icon-fw"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="demo-pli-gear icon-lg icon-fw"></i> Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="demo-pli-information icon-lg icon-fw"></i> Help
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <!-- Dropdown footer -->
+                                <div class="pad-all text-right">
+                                    <a href="pages-login.html" class="btn btn-primary">
+                                        <i class="demo-pli-unlock"></i> Logout
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                        <!--End user dropdown-->
+                    </ul>
+                    
+                </div>
+                <!--================================-->
+                <!--End Navbar Dropdown-->
+
+            </div>
+        </header>
+        <!--===================================================-->
+        <!--END NAVBAR-->
+
+        <div class="boxed">
+
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div class="content-container">
+                <div id="page-content" class="font-th">
+                   
+                </div>
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
+            
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div id="content-container">
+                
+                <!--Page Title-->
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                <div id="page-title" class="no-padding">
+                    <div class="view-header">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-6 col-md-8 header-media">
+                                <div class="float-left header-icon">
+                                    <div class="icon-bg economic-bg-color">
+                                        <i class="fa icon-economic" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class=" margin-left--small header-body float-left truncate font-th font-size-header-small text-bold">
+                                    เพิ่มข้อมูลศูนย์เรียนรู้เศรษฐกิจพอเพียง
+                                </div>
+                            </div>
+                            <div class="col-xs-9 col-sm-6 col-md-4 text-right header-button">
+                              <div class="float-right">
+                                  <div class="form-group float-left has-feedback margin-bottom--0">
+                                    <div class="col-sm-12">
+                                        <input type="text" placeholder="ค้นหาข้อมูล" class="form-control"/>
+                                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                    </div>
+                                  </div>
+                               <button type = "button" class = "btn btn-brand font-th font-size-18 text-bold">
+                                   เพิ่มข้อมูล
+                               </button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+                <!--End page title-->
+
+
+                <!--Page content-->
+                <!--===================================================-->
+                <div id="page-content" class="font-th no-padding">
+                   <div class="tabs--scoped no-padding" >
+                      <ul class="nav nav-tabs">
+                        <li class="nav-tab-item active"><a data-toggle="tab" href="#home">ข้อมูลศูนย์เรียนรู้</a></li>
+                        <li class="nav-tab-item"><a data-toggle="tab" href="#menu1">รูปภาพศูนย์เรียนรู้</a></li>
+                        <li class="nav-tab-item"><a data-toggle="tab" href="#menu2">เอกสารประกอบ</a></li>
+                      </ul>
+
+                      <div class="tab-content" style="padding: 15px !important;">
+                        <div id="home" class="tab-pane fade in active">
+                          <div class="section">
+                            <div class="section-title" data-toggle="collapse" data-target="#section1">
+                                <a >
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i> ข้อมูลทั่วไป
+                                </a>
+                            </div>
+                            <div id="section1" class="collapse in " style="padding: 10px 15px !important;">
+                                <div class="row margin-vertical--small">
+                                    
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            สถานะศูนย์เรียนรู้
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            ชื่อคน/ชื่อชุมชน
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            ด้าน/ประเภท/ชนิด
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <select class="input-control">
+                                                <option>ประชาชนทั่วไป</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">ปีที่จัดตั้ง</p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                     <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            ผู้บันทึก/ปรับปรุงข้อมูลล่าสุด
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            วันที่บันทึก/ปรับปรุงข้อมูลล่าสุด
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    <div class="col-md-12">
+                                        <p class="text-label truncate">
+                                                ข้อมูลด้านเศรษฐกิจพอเพียง/รายละเอียด
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <textarea class="form-control" rows="5"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>  
+
+                          </div>
+                          <div class="section">
+                            <div class="section-title" data-toggle="collapse" data-target="#section2">
+                                <a >
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i> ข้อมูลสถานที่ตั้งศูนย์เรียนรู้
+                                </a>
+                            </div>
+                            <div id="section2" class="collapse in " style="padding: 10px 15px !important;">
+                                <div class="row margin-vertical--small">
+                                    
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            จังหวัด
+                                        </p>
+                                         <div class="text-body truncate">
+                                            <select class="input-control">
+                                                <option>กรุงเทพมหานคร</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            อำเภอ/เขต
+                                        </p>
+                                         <div class="text-body truncate">
+                                            <select class="input-control">
+                                                <option>วังทองหลาง</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            ตำบล/แขวง
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <select class="input-control">
+                                                <option>วังทองหลาง</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">Latitude</p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                     <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            Longitute
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            รูปแผนที่ตั้งศูนย์เรียนรู้
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input type="file" class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>  
+
+                          </div>    
+                          <div class="section">
+                            <div class="section-title" data-toggle="collapse" data-target="#section3">
+                                <a >
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i> ข้อมูลการติดต่อ
+                                </a>
+                            </div>
+                            <div id="section3" class="collapse in " style="padding: 10px 15px !important;">
+                                <div class="row margin-vertical--small">
+                                    
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            ผู้ประสานงาน
+                                        </p>
+                                         <div class="text-body truncate">
+                                             <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            เบอร์โทรศัพท์
+                                        </p>
+                                         <div class="text-body truncate">
+                                             <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            <span class="required" title="required">*</span>
+                                            เบอร์โทรสาร
+                                        </p>
+                                         <div class="text-body truncate">
+                                             <input class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">Email</p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                     <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            G-Chat
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            Line ID
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input type="text" class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>  
+
+                          </div>   
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                        <div class="section" style="padding: 15px !important;">
+                          <div class="row">
+                            <div class="col-md-6 padding-around-15">
+
+                                  <!--Dropzonejs-->
+                                <!--===================================================-->
+                                <form id="demo-dropzone-2" action="#" class="dropzone">
+                                    <div class="dz-default dz-message dz-clickable" style="margin: 1em 0;">
+                                        <div class="dz-icon">
+                                            <i class="demo-pli-upload-to-cloud icon-5x"></i>
+                                        </div>
+                                        <div>
+                                            <span class="dz-text">Drop files to upload</span>
+                                            <p class="text-sm text-muted">or click to pick manually</p>
+                                        </div>
+                                    </div>
+                                    <div class="fallback">
+                                        <input name="file" type="file" multiple>
+                                    </div>
+                                </form>
+                                <!--===================================================-->
+                                <!-- End Dropzonejs -->
+                                <!--Dropzonejs using Bootstrap theme-->
+                                <!--===================================================-->
+
+                                </div>
+                                <div class="col-md-6 padding-around-15">
+                                    <form>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-12">
+                                                <label for="demo-is-inputnormal" class="control-label">ชื่อไฟล์</label>
+                                                <div class="">
+                                                    <input type="text"  class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-12">
+                                                <label for="demo-is-inputnormal" class="control-label">คำอธิบาย</label>
+                                                <div class="">
+                                                    <textarea rows="3"  class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <button class="btn btn-save btn-set-size">บันทึก</button>
+                                <button class="btn  btn-clear btn-set-size">ล้างข้อมูล</button>
+                            </div>
+                          </div>
+                            <br/>
+                            <div class="section margin-vertical--small" >
+                                    <div class="section-title" data-toggle="collapse" data-target="#section201">
+                                        <a class="section-title-info">
+                                          <i class="fa fa-angle-down font-size-small" aria-hidden="true"></i> รูปภาพทั้งหมดในระบบ
+                                        </a>
+                                    </div>
+                                    <div id="section201" class="collapse in panel-body pad-no">
+                                       <div class="row pad-ver">
+                                            <div class="col-md-7" style="padding-top: 5px; padding-left: 5px !important;">
+                                                <div class="col-sm-3" style="width: 21%; padding-top: 7px;">
+                                                    <button class="btn btn-small-toggle btn-select">
+                                                        <i class="fa fa-th-list"></i>
+                                                    </button>
+                                                    <button class="btn btn-small-toggle btn-select">
+                                                        <i class="fa fa-th-large"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="form-group col-sm-9" style="width: 40%;">
+                                                    <label for="demo-is-inputnormal" class="control-label">Catagory</label>
+                                                    <select class="form-control">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group col-md-6 pull-right">
+                                                    <label for="demo-is-inputnormal" class="control-label">ค้นหา</label>
+                                                    <div class="">
+                                                        <input type="text"  class="form-control" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <a data-toggle="modal" data-target="#examplePicture">
+                                                    <img src="img/example_image.png" class="img-responsive"/>
+                                                    <p class="text-uploader">สมชาย สวัสดี</p>
+                                                    <p class="text-upload-date">23/04/2560 14:45</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/example_image.png" class="img-responsive"/>
+                                                <p class="text-uploader">สมชาย สวัสดี</p>
+                                                <p class="text-upload-date">23/04/2560 14:45</p>
+                                            </div>
+                                        </div>
+                                   </div>
+                    </div>
+                        </div>
+                        <!-- Modal -->
+                          <div class="modal fade" id="examplePicture" role="dialog">
+                            <div class="modal-dialog  modal-lg">
+
+                              <!-- Modal content-->
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">รูปภาพตัวอย่าง</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="row">
+                                    <div class="col-md-6 text-center">
+                                      <img src="img/example_image.png" class="img-responsive" style="margin: 0 auto;"/>
+                                    </div>  
+                                     <div class="col-md-6 padding-around-15">
+                                        <form>
+                                                <div class="row">
+                                                    <div class="form-group col-xs-12 col-sm-12">
+                                                        <label for="demo-is-inputnormal" class="control-label">ชื่อไฟล์</label>
+                                                        <div class="">
+                                                            <input type="text"  class="form-control" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-xs-12 col-sm-12">
+                                                        <label for="demo-is-inputnormal" class="control-label">คำอธิบาย</label>
+                                                        <div class="">
+                                                            <textarea rows="2"  class="form-control"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                        </form>
+                                     </div>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-save btn-set-size" data-dismiss="modal">บันทึก</button>
+                                     <button class="btn  btn-danger btn-set-size" data-dismiss="modal">ลบรูปภาพ</button>
+                                    <button class="btn  btn-clear btn-set-size" data-dismiss="modal">ยกเลิก</button>
+                                </div>
+                              </div>
+
+                            </div>
+            </div>
+                        <div id="menu2" class="tab-pane fade">
+                          <div class="section" style="padding: 15px !important;">
+                          <div class="row">
+                            <div class="col-md-6 padding-around-15">
+
+                                  <!--Dropzonejs-->
+                                <!--===================================================-->
+                                <form id="demo-dropzone-2" action="#" class="dropzone">
+                                    <div class="dz-default dz-message dz-clickable" style="margin: 1em 0;">
+                                        <div class="dz-icon">
+                                            <i class="demo-pli-upload-to-cloud icon-5x"></i>
+                                        </div>
+                                        <div>
+                                            <span class="dz-text">Drop files to upload</span>
+                                            <p class="text-sm text-muted">or click to pick manually</p>
+                                        </div>
+                                    </div>
+                                    <div class="fallback">
+                                        <input name="file" type="file" multiple>
+                                    </div>
+                                </form>
+                                <!--===================================================-->
+                                <!-- End Dropzonejs -->
+                                <!--Dropzonejs using Bootstrap theme-->
+                                <!--===================================================-->
+
+                                </div>
+                                <div class="col-md-6 padding-around-15">
+                                    <form>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-12">
+                                                <label for="demo-is-inputnormal" class="control-label">ชื่อไฟล์</label>
+                                                <div class="">
+                                                    <input type="text"  class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-12">
+                                                <label for="demo-is-inputnormal" class="control-label">คำอธิบาย</label>
+                                                <div class="">
+                                                    <textarea rows="3"  class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <button class="btn btn-save btn-set-size">บันทึก</button>
+                                <button class="btn  btn-clear btn-set-size">ล้างข้อมูล</button>
+                            </div>
+                          </div>
+                            <br/>
+                            <div class="section margin-vertical--small" >
+                                    <div class="section-title" data-toggle="collapse" data-target="#section201">
+                                        <a class="section-title-info">
+                                          <i class="fa fa-angle-down font-size-small" aria-hidden="true"></i> รูปภาพทั้งหมดในระบบ
+                                        </a>
+                                    </div>
+                                    <div id="section201" class="collapse in panel-body pad-no">
+                                       <div class="row pad-ver">
+                                            <div class="col-md-7" style="padding-top: 5px; padding-left: 5px !important;">
+                                                <div class="col-sm-3" style="width: 21%; padding-top: 7px;">
+                                                    <button class="btn btn-small-toggle btn-select">
+                                                        <i class="fa fa-th-list"></i>
+                                                    </button>
+                                                    <button class="btn btn-small-toggle btn-select">
+                                                        <i class="fa fa-th-large"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="form-group col-sm-9" style="width: 40%;">
+                                                    <label for="demo-is-inputnormal" class="control-label">Catagory</label>
+                                                    <select class="form-control">
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="form-group col-md-6 pull-right">
+                                                    <label for="demo-is-inputnormal" class="control-label">ค้นหา</label>
+                                                    <div class="">
+                                                        <input type="text"  class="form-control" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                        <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <a data-toggle="modal" data-target="#examplePicture">
+                                                    <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                    <p class="text-uploader text-center">fileName.pdf</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                        </div>
+                                         <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <a data-toggle="modal" data-target="#examplePicture">
+                                                    <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                    <p class="text-uploader text-center">fileName.pdf</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                        </div>
+                                         <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <a data-toggle="modal" data-target="#examplePicture">
+                                                    <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                    <p class="text-uploader text-center">fileName.pdf</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                        </div>
+                                         <div class="row">
+                                            <div class="col-md-2" style="padding-left: 7.5px !important;">
+                                                <a data-toggle="modal" data-target="#examplePicture">
+                                                    <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                    <p class="text-uploader text-center">fileName.pdf</p>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                            <div class="col-md-2"  style="padding-left: 7.5px !important;">
+                                                <img src="img/file.png" class="img-responsive padding-around-30"/>
+                                                 <p class="text-uploader text-center">fileName.pdf</p>
+                                            </div>
+                                        </div>
+                                   </div>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                </div>
+                <!--===================================================-->
+                <!--End page content-->
+
+
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
+
+
+           
+            <!--MAIN NAVIGATION-->
+            <!--===================================================-->
+            <nav id="mainnav-container">
+                <div id="mainnav">
+
+                    <!--Menu-->
+                    <!--================================-->
+                    <div id="mainnav-menu-wrap">
+                        <div class="nano">
+                            <div class="nano-content">
+
+                                <!--Profile Widget-->
+                                <!--================================-->
+                                <div id="mainnav-profile" class="mainnav-profile" >
+                                    <div class="profile-wrap text-center">
+                                        <p class="mnp-name">Administrator</p>
+                                        <div class="pad-btm text-center padding-vertical--small">
+                                            <img class="img-circle img-sm img-border" src="img/profile_photo.png" alt="Profile Picture">
+                                        </div>
+                                        <a href="#profile-nav" class="box-block" data-toggle="collapse" aria-expanded="false">
+                                            <span class="pull-right dropdown-toggle">
+                                                <i class="dropdown-caret"></i>
+                                            </span>
+                                            
+                                            <span class="mnp-desc">aaron.cha@mail.com</span>
+                                        </a>
+                                    </div>
+                                    <div id="profile-nav" class="collapse list-group bg-trans">
+                                        <a href="User_Profile.html" class="list-group-item">
+                                            <i class="demo-pli-male icon-lg icon-fw"></i> View Profile
+                                        </a>
+                                        <a href="#" class="list-group-item">
+                                            <i class="demo-pli-unlock icon-lg icon-fw"></i> Logout
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--End shortcut buttons-->
+
+                                <ul id="mainnav-menu" class="list-group " >
+						
+						            <!--Category name-->
+						            <li class="list-header">Report</li>
+						
+						            <!--Menu list item-->
+						            <li>
+						                <a href="Dashboard.html">
+						                    <i class="fa fa-home"></i>
+						                    <span class="menu-title font-th-with-size">
+												Dashboard
+											</span>
+						                </a>
+						            </li>
+                                    <li>
+						                <a href="Report.html">
+						                    <i class="fa fa-bar-chart"></i>
+						                    <span class="menu-title font-th-with-size">
+												สรุปรายงาน
+											</span>
+						                </a>
+						            </li>
+                                     <!--Category name-->
+						            <li class="list-header">Publish</li>
+                                    <li  class="active-link">
+						                <a href="Study_Centre_Economic.html" class="active-child">
+						                    <span class="icon-economic"></span>
+						                    <span class="menu-title font-th-with-size">
+												ศูนย์เรียนรู้เศรษฐกิจพอเพียง
+											</span>
+						                </a>
+						            </li>
+                                    <li  >
+						                <a href="Study_Centre_Royal.html"  >
+						                    <span class="icon-royal"></span>
+						                    <span class="menu-title font-th-with-size" >
+												ศูนย์เรียนรู้ตามแนวพระราชดำริฯ
+											</span>
+						                </a>
+						            </li>
+                                    <li>
+						                <a href="Study_Centre_Other.html"  >
+						                    <span class="icon-other"></span>
+						                    <span class="menu-title font-th-with-size">
+												ศูนย์เรียนรู้หน่วยงานต่างๆ
+											</span>
+						                </a>
+						            </li>
+                                    <li>
+						                <a href="Study_Centre_Develop.html">
+						                    <span class="icon-develop"></span>
+						                    <span class="menu-title font-th-with-size">
+												ศูนย์ศึกษาการพัฒนาฯ
+											</span>
+						                </a>
+						            </li>
+                                    <li class="list-header">Configuration</li>
+                                    <li>
+						                <a href="Approve_Study_Centre.html">
+						                    <i class="fa fa-file-text"></i>
+						                    <span class="menu-title font-th-with-size" style="margin-top: -5px;">
+												ศูนย์เรียนรู้หน่วยงานต่างๆที่รออนุมัติ
+											</span>
+						                </a>
+						            </li>
+                                    <li>
+						                <a href="Approve_Picture.html">
+						                    <i class="fa fa-picture-o"></i>
+						                    <span class="menu-title font-th-with-size">
+												สื่อมีเดียที่รออนุมัติ
+											</span>
+                                        </a>
+						            </li>
+                                    <li>
+						                <a href="Approve_Location.html">
+						                    <i class="fa fa-map-marker"></i>
+						                    <span class="menu-title font-th-with-size">
+												ค่าพิกัดที่รออนุมัติ
+											</span>
+						                </a>
+						            </li>
+                                    <li>
+						                <a href="User_Management.html">
+						                    <i class="fa fa-users"></i>
+						                    <span class="menu-title font-th-with-size">
+												จัดการผู้ใช้งานระบบ
+											</span>
+						                </a>
+						            </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--================================-->
+                    <!--End menu-->
+
+                </div>
+            </nav>
+            <!--===================================================-->
+            <!--END MAIN NAVIGATION-->
+
+        </div>
+
+        
+
+        <!-- FOOTER -->
+        <!--===================================================-->
+
+        <!--===================================================-->
+        <!-- END FOOTER -->
+
+
+        <!-- SCROLL PAGE BUTTON -->
+        <!--===================================================-->
+        <button class="scroll-top btn">
+            <i class="pci-chevron chevron-up"></i>
+        </button>
+        <!--===================================================-->
+
+
+
+    <!--===================================================-->
+    <!-- END OF CONTAINER -->
+
+     
+    <script src="js/custom.js"></script>
+    
+
+
+</body>
+</html>
+
