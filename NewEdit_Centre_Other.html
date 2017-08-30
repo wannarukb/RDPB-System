@@ -227,12 +227,12 @@
                         <div class="row">
                             <div class="col-xs-3 col-sm-6 col-md-8 header-media">
                                 <div class="float-left header-icon">
-                                    <div class="icon-bg economic-bg-color">
-                                        <i class="fa icon-economic" aria-hidden="true"></i>
+                                    <div class="icon-bg other-bg-color">
+                                        <i class="fa icon-other" aria-hidden="true"></i>
                                     </div>
                                 </div>
                                 <div class=" margin-left--small header-body float-left truncate font-th font-size-header-small text-bold">
-                                    เพิ่มข้อมูลศูนย์เรียนรู้เศรษฐกิจพอเพียง
+                                    เพิ่มข้อมูลศูนย์เรียนรู้หน่วยงานต่างๆ
                                 </div>
                             </div>
                             <div class="col-xs-9 col-sm-6 col-md-4 text-right header-button">
@@ -284,6 +284,23 @@
                                     </div>
                                     <div class="col-md-4">
                                         <p class="text-label truncate">
+                                            หน่วยงาน
+                                            <span class="required" title="required">*</span>
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <select class="input-control">
+                                               <option>สำนักงาน กปร. </option>
+                                                <option>ศูนย์ศึกษาฯ </option>
+                                                <option>กอรมน.</option>
+                                                <option>กรมพัฒนาชุมชน</option>
+                                                <option>มูลนิธิปิดทองหลังพระฯ</option>
+                                                <option>หมู่บ้านนำร่องเพื่อแก้ปัญหาความยากจน</option>
+                                                <option>บำบัดทุกข์บำรุงสุข</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
                                             ด้าน/ประเภท/ชนิด
                                             <span class="required" title="required">*</span>
                                         </p>
@@ -299,9 +316,14 @@
                                                 <option>ธุรกิจขนาดใหญ่</option>
                                                 <option>หน่วยงาน/องค์กรภาครัฐ ส่วนกลาง</option>
                                                 <option>หน่วยงาน/องค์กรภาครัฐ ส่วนภูมิภาค</option>
+                                                <option>ด้านความมั่นคง</option>
+                                                <option>ด้านเกษตรกรและชนบท</option>
                                             </select>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    
                                     <div class="col-md-4">
                                         <p class="text-label truncate">
                                             สถานะศูนย์เรียนรู้
@@ -314,10 +336,6 @@
                                               </select>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row margin-vertical--small">
-                                    
-                                    
                                     <div class="col-md-4">
                                         <p class="text-label truncate">ปีที่จัดตั้ง</p>
                                         <div class="text-body truncate">
@@ -337,6 +355,10 @@
                                             </select>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    
+                                    
                                      <div class="col-md-4">
                                         <p class="text-label truncate">
                                             สถานะข้อมูล
@@ -481,6 +503,24 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row margin-vertical--small">
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                             พิกัดอื่นๆ ที่เกี่ยวข้อง (Latitude)
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                     <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                             พิกัดอื่นๆ ที่เกี่ยวข้อง (Longitute)
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
                              </div>  
 
                           </div>    
@@ -491,6 +531,59 @@
                                 </a>
                             </div>
                             <div id="section3" class="collapse in " style="padding: 10px 15px !important;">
+                                <div class="row margin-vertical--small">
+                                    
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            
+                                            ผู้รับผิดชอบศูนย์เรียนรู้
+                                            <span class="required" title="required">*</span>
+                                        </p>
+                                         <div class="text-body truncate">
+                                             <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            เลขบัตรประชาชน<span class="required" title="required">*</span>
+                                        </p>
+                                         <div class="text-body truncate">
+                                             <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            เบอร์โทรศัพท์/โทรสาร
+                                        </p>
+                                         <div class="text-body truncate">
+                                             <input class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row margin-vertical--small">
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">Email</p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                     <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            G-Chat
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input class="input-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="text-label truncate">
+                                            Line ID
+                                        </p>
+                                        <div class="text-body truncate">
+                                            <input type="text" class="input-control" />
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row margin-vertical--small">
                                     
                                     <div class="col-md-4">
@@ -1051,8 +1144,8 @@
 						            </li>
                                      <!--Category name-->
 						            <li class="list-header">Publish</li>
-                                    <li  class="active-link">
-						                <a href="Study_Centre_Economic.html" class="active-child">
+                                    <li  >
+						                <a href="Study_Centre_Economic.html" >
 						                    <span class="icon-economic"></span>
 						                    <span class="menu-title font-th-with-size">
 												ศูนย์เรียนรู้เศรษฐกิจพอเพียง
@@ -1067,8 +1160,8 @@
 											</span>
 						                </a>
 						            </li>
-                                    <li>
-						                <a href="Study_Centre_Other.html"  >
+                                    <li class="active-link">
+						                <a href="Study_Centre_Other.html" class="active-child" >
 						                    <span class="icon-other"></span>
 						                    <span class="menu-title font-th-with-size">
 												ศูนย์เรียนรู้หน่วยงานต่างๆ

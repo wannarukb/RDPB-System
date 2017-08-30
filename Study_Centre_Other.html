@@ -249,20 +249,14 @@
                 <!--Page content-->
                 <!--===================================================-->
                 <div id="page-content" class="font-th">
-                    <div class="row">
-                        <div class="col-md-1">
-                            <p class="text-label truncate">&nbsp;</p>
-                            <button type = "button" class = "btn btn-danger font-th font-size-16 text-bold">
-                                  ลบข้อมูล
-                            </button>
+                   <div class="row">
+                        <div class="col-md-2">
                         </div>
-                        <div class="col-md-1"></div>
-                        
                         <div class="col-md-3">
                             <p class="text-label truncate">หน่วยงาน</p>
                             <div class="text-body form-group margin-bottom--0">
                               <select class="form-control">
-                                <option>หน่วยงาน</option>
+                                <option>ทั้งหมด</option>
                               </select>
                             </div>
                         </div>
@@ -275,18 +269,58 @@
                             </div>
                         </div>
                         <div class="col-md-3">
+                            <p class="text-label truncate">จังหวัด</p>
+                            <div class="text-body form-group margin-bottom--0">
+                              <select class="form-control">
+                                <option>ทั้งหมด</option>
+                                <option>ฉะเชิงเทรา</option>
+                              </select>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <p class="text-label truncate">&nbsp;</p>
+                            <button type = "button" class = "btn btn-danger font-th font-size-16 text-bold">
+                                  ลบข้อมูล
+                            </button>
+                        </div>
+                        
+                        <div class="col-md-3">
+                            <p class="text-label truncate">ผู้รับผิดชอบศูนย์</p>
+                            <div class="form-group margin-bottom--0">
+                                <input type="text"  class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="text-label truncate">เลขบัตรประชาชนผู้รับผิดชอบศูนย์</p>
+                            <div class="form-group margin-bottom--0">
+                                <input type="text"  class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
                             <p class="text-label truncate">สถานะศูนย์เรียนรู้</p>
                             <div class="text-body form-group margin-bottom--0">
                               <select class="form-control">
-                                <option>พื้นที่ศูนย์เรียนรู้</option>
+                                <option>พื้นที่เป้าหมาย</option>
                                 <option>ศูนย์เรียนรู้</option>
+                              </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="text-label truncate">สถานะข้อมูล</p>
+                            <div class="text-body form-group margin-bottom--0">
+                              <select class="form-control">
+                                <option>ครบถ้วน</option>
+                                <option>ไม่ครบถ้วน</option>
                               </select>
                             </div>
                         </div>
                         <div class="col-md-1">
                             <p class="text-label truncate">&nbsp;</p>
                             <button type = "button" class = "btn btn-default font-th font-size-16 text-bold" >
-                                ค้นหา
+                                 ค้นหา
                             </button>
                         </div>
                     </div>
@@ -298,6 +332,7 @@
                                 <th>ชื่อคน/ชุมชน</th>
                                 <th>หน่วยงาน</th>
                                 <th>ด้าน/ประเภท/ชนิด</th>
+                                <th>จังหวัด</th>
                                 <th>ผู้รับผิดชอบศูนย์</th>
                                 <th>เลขบัตรประชาชน<br/>ผู้รับผิดชอบศูนย์</th>
                                 <th>สถานะศูนย์เรียนรู้</th>
@@ -311,6 +346,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pending">พื้นที่เป้าหมาย</span></td>
@@ -322,6 +358,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -333,6 +370,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -344,6 +382,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pending">พื้นที่เป้าหมาย</span></td>
@@ -355,6 +394,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -366,6 +406,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -377,6 +418,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -388,6 +430,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -399,6 +442,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pending">พื้นที่เป้าหมาย</span></td>
@@ -410,6 +454,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pending">พื้นที่เป้าหมาย</span></td>
@@ -421,6 +466,7 @@
                                 <td>นายสมชาย สวัสดี</td>
                                 <td class="text-center">สำนักงาน กปร.</td>
                                 <td class="text-center">ประชาชนทั่วไป</td>
+                                <td class="text-center">ฉะเชิงเทรา</td>
                                 <td>นายวินัย ใจงาม</td>
                                 <td>1100400943569</td>
                                 <td class="text-center"><span class="badge badge-pass">ศูนย์เรียนรู้</span></td>
@@ -488,7 +534,7 @@
 						            <!--Menu list item-->
 						            <li>
 						                <a href="Dashboard.html">
-						                    <i class="fa fa-home"></i>
+						                    <i class="fa fa-bar-chart"></i>
 						                    <span class="menu-title font-th-with-size">
 												Dashboard
 											</span>
@@ -496,9 +542,9 @@
 						            </li>
                                     <li>
 						                <a href="Report.html">
-						                    <i class="fa fa-bar-chart"></i>
+						                    <i class="fa fa-file-text"></i>
 						                    <span class="menu-title font-th-with-size">
-												สรุปรายงาน
+												รายงานศูนย์เรียนรู้
 											</span>
 						                </a>
 						            </li>
@@ -538,34 +584,18 @@
 						            </li>
                                     <li class="list-header">Configuration</li>
                                     <li>
-						                <a href="Approve_Study_Centre.html">
-						                    <i class="fa fa-file-text"></i>
-						                    <span class="menu-title font-th-with-size" style="margin-top: -5px;">
-												ศูนย์เรียนรู้หน่วยงานต่างๆที่รออนุมัติ
-											</span>
-						                </a>
-						            </li>
-                                    <li>
-						                <a href="Approve_Picture.html">
-						                    <i class="fa fa-picture-o"></i>
-						                    <span class="menu-title font-th-with-size">
-												สื่อมีเดียที่รออนุมัติ
-											</span>
-                                        </a>
-						            </li>
-                                    <li>
-						                <a href="Approve_Location.html">
-						                    <i class="fa fa-map-marker"></i>
-						                    <span class="menu-title font-th-with-size">
-												ค่าพิกัดที่รออนุมัติ
-											</span>
-						                </a>
-						            </li>
-                                    <li>
 						                <a href="User_Management.html">
 						                    <i class="fa fa-users"></i>
 						                    <span class="menu-title font-th-with-size">
 												จัดการผู้ใช้งานระบบ
+											</span>
+						                </a>
+						            </li>
+                                    <li>
+						                <a href="User_Report.html">
+						                    <i class="fa fa-address-book"></i>
+						                    <span class="menu-title font-th-with-size">
+												รายงานการใช้งาน
 											</span>
 						                </a>
 						            </li>
