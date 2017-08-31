@@ -65,6 +65,24 @@ fieldset {
 /*    font-weight: 500 !important;*/
 }
 
+.text-color-blue{
+    color: #00A9D8;
+}
+
+.bg-pink{
+    background: #ED6B75 !important;
+}
+
+.bg-light-blues{
+    background: #36C6D3 !important;
+    color: #fff !important;
+}
+
+.bg-green-circle{
+    background: #33B7A0 !important;
+    color: #fff !important;
+}
+
 .font-size-form{
     font-size: 1.3em !important;
     font-weight: bold !important;
@@ -96,6 +114,9 @@ fieldset {
 }
 .margin-top--small{
     margin-top: 15px !important;
+}
+.padding-around-10{
+    padding: 10px !important;
 }
 .padding-vertical--small{
     padding-top: 0.5em !important;
@@ -747,7 +768,7 @@ Nav Bar - left
 }
 
 .header-button a{
-    color: #16325C !important;
+    color: #16325C ;
     margin-right: 0.5rem !important;
 }
 
@@ -823,6 +844,9 @@ Nav Bar - left
     }
 }
 
+.brand-bg-color{
+    background: #0070D2;
+}
 .green-bg-color{
     background: #1FCE6D;
 }
@@ -1067,7 +1091,7 @@ fieldset[disabled] .btn-no-bg.focus {
 }
 
 .btn-brand {
-  color: #FFF;
+  color: #FFF !important;
   background-color: #0070D2;
   border-color: #0070D2;
 }

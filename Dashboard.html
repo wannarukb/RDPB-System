@@ -33,6 +33,9 @@
     <link href="css/fontTH.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!--Morris.js [ OPTIONAL ]-->
+    <link href="plugins/morris-js/morris.min.css" rel="stylesheet">
+
     
     <!--JAVASCRIPT-->
     <!--=================================================-->
@@ -58,7 +61,23 @@
     
     <!--Demo script [ DEMONSTRATION ]-->
     <script src="js/demo/nifty-demo.min.js"></script>
+    
+    <!--Morris.js [ OPTIONAL ]-->
+    <script src="plugins/morris-js/morris.min.js"></script>
+	<script src="plugins/morris-js/raphael-js/raphael.min.js"></script>
 
+     <!--Flot Chart [ OPTIONAL ]-->
+    <script src="plugins/flot-charts/jquery.flot.min.js"></script>
+	<script src="plugins/flot-charts/jquery.flot.resize.min.js"></script>
+
+
+    <!--Flot Pie Chart [ OPTIONAL ]-->
+    <script src="plugins/flot-charts/jquery.flot.pie.min.js"></script>
+
+
+  
+    <!--Charts [ SAMPLE ]-->
+    <script src="js/demo/charts.js"></script>
 </head>
 
 <!--TIPS-->
@@ -217,26 +236,13 @@
                         <div class="row">
                             <div class="col-xs-3 col-sm-6 col-md-8 header-media">
                                 <div class="float-left header-icon">
-                                    <div class="icon-bg develop-bg-color">
-                                        <i class="fa icon-develop" aria-hidden="true"></i>
+                                    <div class="icon-bg brand-bg-color">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
                                     </div>
                                 </div>
                                 <div class=" margin-left--small header-body float-left truncate font-th font-size-header-small text-bold">
-                                    ศูนย์ศึกษาการพัฒนา ฯ
+                                    Dashboard
                                 </div>
-                            </div>
-                            <div class="col-xs-9 col-sm-6 col-md-4 text-right header-button">
-                              <div class="float-right">
-                                  <div class="form-group float-left has-feedback margin-bottom--0">
-                                    <div class="col-sm-12">
-                                        <input type="text" placeholder="ค้นหาข้อมูล" class="form-control"/>
-                                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                                    </div>
-                                  </div>
-                               <a href="NewEdit_Centre_Develop.html" class = "btn btn-brand font-th font-size-18 text-bold">
-                                   เพิ่มข้อมูล
-                               </a>
-                              </div>
                             </div>
                         </div>
                     </div>
@@ -250,72 +256,170 @@
                 <!--===================================================-->
                 <div id="page-content" class="font-th">
                     <div class="row">
-                        <div class="col-md-1">
-                            <p class="text-label truncate">&nbsp;</p>
-                            <button type = "button" class = "btn btn-danger font-th font-size-16 text-bold">
-                                  ลบข้อมูล
-                            </button>
+                        <div class="col-md-6 col-lg-4">
+					        <div class="panel media middle pad-all">
+                                <div class="text-bold">
+                                    <h3>จำนวนผู้ใช้งานระบบ</h3>
+                                    <span class="font-size-16">40% ที่มีการเข้ามาใช้งานช่วงเดือนล่าสุด</span>
+                                </div>
+					            <div class="media-body">
+					                <h1 class="text-color-blue">345</h1>
+					            </div>
+                                <div class="media-right">
+					                <span class="icon-wrap icon-wrap-sm icon-circle bg-pink icon-2x">
+					                   <i class="fa fa-user"></i>
+					                </span>
+					            </div>
+					        </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+					        <div class="panel media middle pad-all">
+                                <div class="text-bold">
+                                    <h3>ค่าพิกัดที่ได้รับการอนุมัติแล้วในระบบ</h3>
+                                    <span class="font-size-16">65% ที่ผ่านการอนุมติในช่วงเดือนล่าสุด</span>
+                                </div>
+					            <div class="media-body">
+					                <h1 class="text-color-blue">1,234</h1>
+					            </div>
+                                <div class="media-right">
+					                <span class="icon-wrap icon-wrap-sm icon-circle bg-light-blues icon-2x">
+					                   <i class="fa fa-map"></i>
+					                </span>
+					            </div>
+					        </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+					        <div class="panel media middle pad-all">
+                                <div class="text-bold">
+                                    <h3>สื่อมีเดียที่ได้รับการอนุมัติแล้วในระบบ</h3>
+                                    <span class="font-size-16">60% ที่ผ่านการอนุมัติในเดือนล่าสุด</span>
+                                </div>
+					            <div class="media-body">
+					                <h1 class="text-color-blue">4,500</h1>
+					            </div>
+                                <div class="media-right">
+					                <span class="icon-wrap icon-wrap-sm icon-circle bg-green-circle icon-2x">
+					                   <i class="fa fa-picture-o"></i>
+					                </span>
+					            </div>
+					        </div>
                         </div>
                     </div>
-                    <div class="row margin-vertical--medium">
-                        <table class="table table-striped table-bordered font-bold font-size-18">
-                            <thead>
-                              <tr>
-                                <th style="width: 10px;"></th>
-                                <th>ชื่อศูนย์ศึกษาการพัฒนา</th>
-                                <th>ที่อยู่</th>
-                                <th>เบอร์โทร/โทรสาร</th>
-                                <th>อีเมลล์</th>
-                                <th>สถานะข้อมูล</th>
-                                <th>วันที่เปลี่ยนแปลงล่าสุด</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td class="text-center"><input type="checkbox"/></td>
-                                <td>ศูนย์ศึกษาการพัฒนาพิกุลทอง</td>
-                                <td>บ้านพิกุลทอง บ้านโคกสยา อำเภอเมือง จังหวัดนราธิวาส </td>
-                                <td>073-513562 / 073-513561</td>
-                                <td>pikulCenter@mail.com</td>
-                                <td class="text-center"><span class="badge badge-fullInfo">ครบถ้วน</span></td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                              <tr>
-                                <td class="text-center"><input type="checkbox"/></td>
-                                <td>ศูนย์ศึกษาการพัฒนาพิกุลทอง</td>
-                                <td>บ้านพิกุลทอง บ้านโคกสยา อำเภอเมือง จังหวัดนราธิวาส </td>
-                                <td>073-513562 / 073-513561</td>
-                                <td>pikulCenter@mail.com</td>
-                                <td class="text-center"><span class="badge badge-fullInfo">ครบถ้วน</span></td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center"><input type="checkbox"/></td>
-                                <td>ศูนย์ศึกษาการพัฒนาพิกุลทอง</td>
-                                <td>บ้านพิกุลทอง บ้านโคกสยา อำเภอเมือง จังหวัดนราธิวาส </td>
-                                <td>073-513562 / 073-513561</td>
-                                <td>pikulCenter@mail.com</td>
-                                <td class="text-center"><span class="badge badge-fullInfo">ครบถ้วน</span></td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center"><input type="checkbox"/></td>
-                                <td>ศูนย์ศึกษาการพัฒนาพิกุลทอง</td>
-                                <td>บ้านพิกุลทอง บ้านโคกสยา อำเภอเมือง จังหวัดนราธิวาส </td>
-                                <td>073-513562 / 073-513561</td>
-                                <td>pikulCenter@mail.com</td>
-                                <td class="text-center"><span class="badge badge-default">ไม่ครบถ้วน</span></td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                            </tbody>
-                      </table> 
+                     <div class="font-th">
+                         
+                  <div class="row">
+                    <div class="col-lg-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">จำนวนและ% ศูนย์เรียนรู้ในภาพรวม แยกตามประเภท</h3>
+                            </div>
+                            <div class="panel-body">
+
+                                <!--Flot Donut Chart placeholder -->
+                                <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                <div id="demo-pie-01" style="height:250px"></div>
+                                <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                            </div>
+                        </div>
                     </div>
+					
+					   <div class="col-lg-6">
+					        <div class="panel">
+					            <div class="panel-heading">
+					                <h3 class="panel-title">จำนวนและ% ศูนย์เรียนรู้ทั้งหมด แยกตามภาค</h3>
+					            </div>
+					            <div class="panel-body">
+					
+					                <!--Morris Bar Chart placeholder -->
+					                <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					                <div id="demo-bar-01" style="height:250px"></div>
+					                <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					
+					
+					            </div>
+					        </div>
+					    </div>
+					    
+					</div>
+                    <div class="row">
+                       <div class="col-lg-6">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">จำนวนและ% ศูนย์เรียนรู้เศรษฐกิจพอเพียง แยกตามภาค</h3>
+                                </div>
+                                <div class="panel-body">
+
+                                    <!--Morris Bar Chart placeholder -->
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                    <div id="demo-bar-02" style="height:250px"></div>
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                       <div class="col-lg-6">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">จำนวนและ% ศูนย์เรียนรู้ตามแนวพระราชดำริของศูนย์ศึกษาการพัฒนาฯ แยกตามภาค</h3>
+                                </div>
+                                <div class="panel-body">
+
+                                    <!--Morris Bar Chart placeholder -->
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                    <div id="demo-bar-03" style="height:250px"></div>
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+                                </div>
+                            </div>
+                        </div>
+
+					</div>
+                    <div class="row">
+                       <div class="col-lg-6">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">จำนวนและ% ศูนย์เรียนรู้หน่วยงานต่างๆ แยกตามภาค</h3>
+                                </div>
+                                <div class="panel-body">
+
+                                    <!--Morris Bar Chart placeholder -->
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                    <div id="demo-bar-04" style="height:250px"></div>
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                       <div class="col-lg-6">
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">จำนวนและ% พื้นที่เป้าหมายศูนย์เรียนรู้ แต่ละประเภท แยกตามภาค</h3>
+                                </div>
+                                <div class="panel-body">
+
+                                    <!--Morris Bar Chart placeholder -->
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+                                    <div id="demo-bar-05" style="height:250px"></div>
+                                    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+                                </div>
+                            </div>
+                        </div>
+
+					</div>
+                </div>
 					
                 </div>
                 <!--===================================================-->
                 <!--End page content-->
-
-
+                
+               
+					
             </div>
             <!--===================================================-->
             <!--END CONTENT CONTAINER-->
@@ -366,8 +470,8 @@
 						            <li class="list-header">Report</li>
 						
 						            <!--Menu list item-->
-						            <li>
-						                <a href="Dashboard.html">
+						           <li  class="active-link">
+						                <a href="Dashboard.html"  class="active-child" >
 						                    <i class="fa fa-bar-chart"></i>
 						                    <span class="menu-title font-th-with-size">
 												Dashboard
@@ -392,8 +496,8 @@
 											</span>
 						                </a>
 						            </li>
-                                    <li  >
-						                <a href="Study_Centre_Royal.html"  >
+                                    <li >
+						                <a href="Study_Centre_Royal.html" >
 						                    <span class="icon-royal"></span>
 						                    <span class="menu-title font-th-with-size" >
 												ศูนย์เรียนรู้ตามแนวพระราชดำริฯ
@@ -408,8 +512,8 @@
 											</span>
 						                </a>
 						            </li>
-                                    <li class="active-link">
-						                <a href="Study_Centre_Develop.html" class="active-child" >
+                                    <li>
+						                <a href="Study_Centre_Develop.html">
 						                    <span class="icon-develop"></span>
 						                    <span class="menu-title font-th-with-size">
 												ศูนย์ศึกษาการพัฒนาฯ
@@ -417,7 +521,7 @@
 						                </a>
 						            </li>
                                     <li class="list-header">Configuration</li>
-                                
+                                    
                                     <li>
 						                <a href="User_Management.html">
 						                    <i class="fa fa-users"></i>
