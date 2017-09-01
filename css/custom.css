@@ -93,7 +93,9 @@ fieldset {
     font-size: 1.3em !important;
     font-weight: bold !important;
 }
-
+.font-th .table{
+    font-size: 20px !important;
+}
 .margin-vertical--small{
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
