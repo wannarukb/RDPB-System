@@ -27,9 +27,6 @@
 
     <!--Demo [ DEMONSTRATION ]-->
     <link href="css/demo/nifty-demo.min.css" rel="stylesheet">
-     <!--Dropzone [ OPTIONAL ]-->
-    <link href="plugins/dropzone/dropzone.css" rel="stylesheet">
-
 
     <!--Demo [ DEMONSTRATION ]-->
     <link href="css/fonticon.css" rel="stylesheet">
@@ -61,13 +58,6 @@
     
     <!--Demo script [ DEMONSTRATION ]-->
     <script src="js/demo/nifty-demo.min.js"></script>
-    
-         <!--Dropzone [ OPTIONAL ]-->
-    <script src="plugins/dropzone/dropzone.js"></script>
-
-
-    <!--Form File Upload [ SAMPLE ]-->
-    <script src="js/demo/form-file-upload.js"></script>
 
 </head>
 
@@ -206,6 +196,15 @@
 
         <div class="boxed">
 
+            <!--CONTENT CONTAINER-->
+            <!--===================================================-->
+            <div class="content-container">
+                <div id="page-content" class="font-th">
+                   
+                </div>
+            </div>
+            <!--===================================================-->
+            <!--END CONTENT CONTAINER-->
             
             <!--CONTENT CONTAINER-->
             <!--===================================================-->
@@ -241,252 +240,14 @@
                 <!--End page title-->
 
 
-               
                 <!--Page content-->
                 <!--===================================================-->
                 <div id="page-content" class="font-th">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <p class="text-label truncate">ชื่อสกุลผู้ใช้งาน</p>
-                            <div class="text-body form-group margin-bottom--0">
-                              <input type="text" class="form-control"/>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <p class="text-label truncate">หน่วยงาน</p>
-                            <div class="text-body form-group margin-bottom--0">
-                              <select class="form-control">
-                                   <option>สำนักงาน กปร. </option>
-                                    <option>ศูนย์ศึกษาฯ </option>
-                                    <option>กอรมน.</option>
-                                    <option>กรมพัฒนาชุมชน</option>
-                                    <option>มูลนิธิปิดทองหลังพระฯ</option>
-                                    <option>หมู่บ้านนำร่องเพื่อแก้ปัญหาความยากจน</option>
-                                    <option>บำบัดทุกข์บำรุงสุข</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <p class="text-label truncate">หน้าที่การใช้งาน</p>
-                            <div class="text-body form-group margin-bottom--0">
-                              <select class="form-control">
-                                <option>System Admin</option>
-                                <option>Supervisor</option>
-                                <option>User</option>
-                              </select>
-                            </div>
-                        </div>
-                        
-                         <div class="col-md-2">
-                            <p class="text-label truncate">ภาคที่รับผิดชอบ</p>
-                            <div class="text-body form-group margin-bottom--0">
-                              <select class="form-control">
-                                <option>ส่วนกลาง</option>
-                                <option>ภาค 1</option>
-                                <option>ภาค 2</option>
-                                <option>ภาค 3</option>
-                                <option>ภาค 4</option>
-                              </select>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <p class="text-label truncate">ประเภทข้อมูลที่รับผิดชอบ</p>
-                            <div class="text-body form-group margin-bottom--0">
-                              <select class="form-control">
-                                <option>พระราชดำริ</option>
-                                <option>โครงการฯ</option>
-                                <option>แนวคิดทฤษฎี</option>
-                                <option>ศูนย์เรียนรู้เศรษฐกิจพอเพียง</option>
-                                <option>ศูนย์เรียนรู้ตามแนวพระราชดำริ</option>
-                                <option>ศูนย์เรียนรู้หน่วยงานต่างๆ </option>
-                              </select>
-                            </div>
-                        </div>
-                        <div class="col-md-1">
-                            <p class="text-label truncate">&nbsp;</p>
-                            <button type = "button" class = "btn btn-default font-th font-size-16 text-bold" >
-                                 ค้นหา
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row margin-vertical--medium">
-                        <table class="table table-striped table-bordered font-bold font-size-18">
-                            <thead>
-                              <tr>
-                                <th style="width: 60px;"></th>
-                                <th>User ID</th>
-                                <th>ชื่อสกุลผู้ใช้งาน</th>
-                                <th>หน่วยงาน</th>
-                                <th>หน้าที่การใช้งาน</th>
-                                <th>ภาคที่รับผิดชอบ</th>
-                                <th>ประเภทข้อมูลที่รับผิดชอบ</th>
-                                <th>วันที่เปลี่ยนแปลงล่าสุด</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                                <tr>
-                                <td class="text-center">
-                                    <i class="fa fa-trash text-color-red"></i>  
-                                    <a href="Add_User.html"><i class="fa fa-pencil-square text-color-brand"></i> </a> 
-                                </td>
-                                <td><a class="text-color-brand">UserID0001</a></td>
-                                <td class="text-center">นายสมชาย สวัสดี</td>
-                                <td class="text-center">สำนักงาน กปร.</td>
-                                <td class="text-center">User</td>
-                                <td class="text-center">ส่วนกลาง</td>
-                                <td class="text-center">แนวคิดทฤษฎี</td>
-                                <td class="text-center">21/06/2560 14:50</td>
-                              </tr>
-                            </tbody>
-                      </table> 
-                    </div>
-					
+                    
                 </div>
                 <!--===================================================-->
                 <!--End page content-->
+
 
             </div>
             <!--===================================================-->
@@ -556,8 +317,8 @@
 						            </li>
                                      <!--Category name-->
 						            <li class="list-header">Publish</li>
-                                    <li  >
-						                <a href="Study_Centre_Economic.html" >
+                                    <li >
+						                <a href="Study_Centre_Economic.html">
 						                    <span class="icon-economic"></span>
 						                    <span class="menu-title font-th-with-size">
 												ศูนย์เรียนรู้เศรษฐกิจพอเพียง
@@ -572,16 +333,16 @@
 											</span>
 						                </a>
 						            </li>
-                                    <li >
-						                <a href="Study_Centre_Other.html" >
+                                    <li>
+						                <a href="Study_Centre_Other.html"  >
 						                    <span class="icon-other"></span>
 						                    <span class="menu-title font-th-with-size">
 												ศูนย์เรียนรู้หน่วยงานต่างๆ
 											</span>
 						                </a>
 						            </li>
-                                    <li >
-						                <a href="Study_Centre_Develop.html" >
+                                    <li>
+						                <a href="Study_Centre_Develop.html">
 						                    <span class="icon-develop"></span>
 						                    <span class="menu-title font-th-with-size">
 												ศูนย์ศึกษาการพัฒนาฯ
@@ -590,14 +351,14 @@
 						            </li>
                                     <li class="list-header">Configuration</li>
                                     <li class="active-link">
-						                <a href="User_Management.html" class="active-child">
+						                <a href="User_Management.html"  class="active-child">
 						                    <i class="fa fa-users"></i>
 						                    <span class="menu-title font-th-with-size">
 												จัดการผู้ใช้งานระบบ
 											</span>
 						                </a>
 						            </li>
-                                    <li>
+                                    <li  >
 						                <a href="User_Report.html">
 						                    <i class="fa fa-address-book"></i>
 						                    <span class="menu-title font-th-with-size">
@@ -618,6 +379,8 @@
             <!--END MAIN NAVIGATION-->
 
         </div>
+
+        
 
         <!-- FOOTER -->
         <!--===================================================-->
@@ -641,7 +404,6 @@
         <!--===================================================-->
         <!-- END FOOTER -->
 
-   
 
         <!-- SCROLL PAGE BUTTON -->
         <!--===================================================-->
@@ -659,5 +421,8 @@
      
     <script src="js/custom.js"></script>
     
+
+
 </body>
 </html>
+
