@@ -22,8 +22,20 @@ fieldset {
 }
 .font-th{
     font-family: THSarabun ,'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+/*    font-family: 'Kanit', sans-serif !important;*/
+/*      font-family: supermarketregular ,sans-serif!important;*/
 }
-
+/*
+.table{
+     font-family: 'Kanit', sans-serif !important;
+    
+}
+*/
+/*
+.font-th .table{
+    font-size: 20px !important;
+}
+*/
 .font-default{
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 }
@@ -75,6 +87,11 @@ fieldset {
     color: #D0021B;
 }
 
+.icon-wrap i {;
+    width: 1.1em !important;
+    height: 1.1em !important;
+}
+
 .bg-pink{
     background: #ED6B75 !important;
 }
@@ -93,9 +110,7 @@ fieldset {
     font-size: 1.3em !important;
     font-weight: bold !important;
 }
-.font-th .table{
-    font-size: 20px !important;
-}
+
 .margin-vertical--small{
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;

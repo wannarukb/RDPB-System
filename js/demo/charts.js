@@ -111,6 +111,24 @@
         hideHover: 'auto'
     });
      
+    Morris.Bar({
+        element: 'demo-bar-06',
+        data: [
+            { y: 'ภาค 1', a: 100 },
+            { y: 'ภาค 2', a: 75 },
+            { y: 'ภาค 3', a: 20},
+            { y: 'ภาค 4', a: 50 },
+        ],
+        xkey: 'y',
+        ykeys: ['a'],
+        labels: ['Series A'],
+        gridEnabled: false,
+        gridLineColor: 'transparent',
+        barColors: ['#FFE480'],
+        resize:true,
+        hideHover: 'auto'
+    });
+     
     // FLOT PIE CHART
     // =================================================================
     // Require Flot Charts

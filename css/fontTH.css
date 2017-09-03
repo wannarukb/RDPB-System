@@ -11,3 +11,13 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'supermarketregular';
+    src: url('../fonts/supermarket.ttf') format('truetype'),
+         url('../fonts/supermarket.woff2') format('woff2'),
+         url('../fonts/supermarket.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
