@@ -227,9 +227,12 @@
                             </div>
                             <div class="col-xs-9 col-sm-6 col-md-4 text-right header-button">
                               <div class="float-right">
-                               <a href="Add_User.html" class="btn btn-brand font-th font-size-18 text-bold">
-                                   เพิ่มผู้ใช้งาน
-                               </a>
+                               <button type = "button" class = "btn btn-clear font-th font-size-18 text-bold">
+                                  ยกเลิก
+                               </button>
+                               <button type = "button" class = "btn btn-brand font-th font-size-18 text-bold">
+                                   บันทึก
+                               </button>
                               </div>
                             </div>
                         </div>
@@ -243,7 +246,217 @@
                 <!--Page content-->
                 <!--===================================================-->
                 <div id="page-content" class="font-th">
-                    
+                    <div class="section">
+                        <div class="section-title" data-toggle="collapse" data-target="#section1">
+                            <a >
+                              <i class="fa fa-angle-down" aria-hidden="true"></i> ข้อมูลทั่วไป
+                            </a>
+                        </div>
+                        <div id="section1" class="collapse in " style="padding: 10px 15px !important;">
+                            <div class="row margin-vertical--small">
+                                <div class="col-md-2">
+                                    <img src="img/profile_photo.png" />
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="row margin-vertical--medium">
+                                         <div class="col-md-6">
+                                            <p class="text-label truncate">
+                                               ชื่อ
+                                                <span class="required" title="required">*</span>
+                                            </p>
+                                            <div class="text-body truncate">
+                                                <input class="input-control" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="text-label truncate">
+                                                นามสกุล
+                                                <span class="required" title="required">*</span>
+                                            </p>
+                                            <div class="text-body truncate">
+                                                <input class="input-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row margin-vertical--medium">
+                                         <div class="col-md-6">
+                                            <p class="text-label truncate">
+                                               เบอร์ติดต่อ
+                                                <span class="required" title="required">*</span>
+                                            </p>
+                                            <div class="text-body truncate">
+                                                <input class="input-control" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p class="text-label truncate">
+                                                อีเมลล์
+                                                <span class="required" title="required">*</span>
+                                            </p>
+                                            <div class="text-body truncate">
+                                                <input class="input-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row margin-vertical--medium">
+                                <div class="col-md-4">
+                                    <p class="text-label truncate">User ID</p>
+                                    <div class="text-body truncate">
+                                        <input class="input-control" />
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="text-label truncate">หน่วยงานผู้ใช้งาน</p>
+                                    <div class="text-body truncate">
+                                        <select class="input-control">
+                                           <option>สำนักงาน กปร. </option>
+                                            <option>ศูนย์ศึกษาฯ </option>
+                                            <option>กอรมน.</option>
+                                            <option>กรมพัฒนาชุมชน</option>
+                                            <option>มูลนิธิปิดทองหลังพระฯ</option>
+                                            <option>หมู่บ้านนำร่องเพื่อแก้ปัญหาความยากจน</option>
+                                            <option>บำบัดทุกข์บำรุงสุข</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="text-label truncate">หน้าที่การใช้งาน</p>
+                                    <div class="text-body truncate">
+                                        <select class="input-control">
+                                            <option>System Admin</option>
+                                            <option>Supervisor</option>
+                                            <option>User</option>
+                                          </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-vertical--small">
+                                <div class="col-md-4">
+                                    <p class="text-label truncate">ภาคที่รับผิดชอบ</p>
+                                    <div class="text-body truncate">
+                                        <select class="input-control">
+                                            <option>ส่วนกลาง</option>
+                                            <option>ภาค 1</option>
+                                            <option>ภาค 2</option>
+                                            <option>ภาค 3</option>
+                                            <option>ภาค 4</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <p class="text-label truncate">ประเภทข้อมูลที่รับผิดชอบ</p>
+                                    <div class="text-body truncate">
+                                        <select class="input-control">
+                                            <option>พระราชดำริ</option>
+                                            <option>โครงการฯ</option>
+                                            <option>แนวคิดทฤษฎี</option>
+                                            <option>ศูนย์เรียนรู้เศรษฐกิจพอเพียง</option>
+                                            <option>ศูนย์เรียนรู้ตามแนวพระราชดำริ</option>
+                                            <option>ศูนย์เรียนรู้หน่วยงานต่างๆ </option>
+                                          </select>
+                                    </div>
+                                </div>
+                                 <div class="col-md-4">
+                                    <p class="text-label truncate">
+                                       การใช้งานล่าสุด
+                                    </p>
+                                    <div class="text-body truncate">
+                                        23/08/2017 15:30
+                                    </div>
+                                </div>
+                            </div>
+                         </div>  
+                    </div><br/>
+                    <div class="section">
+                        <div class="section-title" data-toggle="collapse" data-target="#section2">
+                            <a >
+                              <i class="fa fa-angle-down" aria-hidden="true"></i> ประวัติการใช้งาน
+                            </a>
+                        </div>
+                        <div id="section2" class="collapse in " style="padding: 10px 15px !important;">
+                            <table class="table table-striped table-bordered font-bold font-size-18">
+                                <thead>
+                                      <tr>
+                                        <th>User ID</th>
+                                        <th>ชื่อสกุลผู้ใช้งาน</th> 
+                                        <th>Source IP</th>
+                                        <th>Browser</th>
+                                        <th>Platform</th>
+                                        <th>Location</th>
+                                        <th>การใช้งานล่าสุด</th>
+                                      </tr>
+                                </thead>
+                                <tbody>
+                                      <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                     <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                    <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                    <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                    <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                    <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                    <tr>
+                                        <td><a class="text-color-brand">UserID0001</a></td>
+                                        <td class="text-center">นายสมชาย สวัสดี</td>
+                                        <td class="text-center">111.123.122.100</td>
+                                        <td class="text-center">Chrome 60</td>
+                                        <td class="text-center">Window 8.1</td>
+                                        <td class="text-center">Thailand</td>
+                                        <td class="text-center">21/06/2560 14:50</td>
+                                      </tr>
+                                  </tbody>
+                            </table>
+                         </div>  
+                    </div>
                 </div>
                 <!--===================================================-->
                 <!--End page content-->
