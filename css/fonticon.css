@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?ukw4xx');
-  src:  url('../fonts/icomoon.eot?ukw4xx#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?ukw4xx') format('truetype'),
-    url('../fonts/icomoon.woff?ukw4xx') format('woff'),
-    url('../fonts/icomoon.svg?ukw4xx#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?vr39tl');
+  src:  url('../fonts/icomoon.eot?vr39tl#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vr39tl') format('truetype'),
+    url('../fonts/icomoon.woff?vr39tl') format('woff'),
+    url('../fonts/icomoon.svg?vr39tl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,20 +24,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-other:before {
+.icon-develop:before {
   content: "\e900";
-
 }
-.icon-other-01:before {
+.icon-develop-02:before {
   content: "\e901";
-  font-size: 0.9em;
-}
-.icon-royal:before {
-  content: "\e902";
 }
 .icon-economic:before {
-  content: "\e903";
+  content: "\e902";
+  color: #fff;
 }
-.icon-develop:before {
-  content: "\e904";
+.icon-other:before {
+  content: "\e935";
+}
+.icon-other-01:before {
+  content: "\e936";
+}
+.icon-royal:before {
+  content: "\e937";
+}
+.icon-economic-01:before {
+  content: "\e938";
+}
+.icon-develop-01:before {
+  content: "\e939";
 }
