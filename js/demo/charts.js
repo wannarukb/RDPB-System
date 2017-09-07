@@ -12,10 +12,10 @@
     Morris.Bar({
         element: 'demo-bar-01',
         data: [
-            { y: 'ภาค 1', a: 100 },
-            { y: 'ภาค 2', a: 75 },
-            { y: 'ภาค 3', a: 20},
-            { y: 'ภาค 4', a: 50 },
+            { y: 'พื้นที่ 1\n(ภาคกลาง)', a: 100 },
+            { y: 'พื้นที่ 2\n(ภาคตะวันออกเฉียงเหนือ)', a: 75 },
+            { y: 'พื้นที่ 3\n(ภาคเหนือ)', a: 20},
+            { y: 'พื้นที่ 4\n(ภาคใต้)', a: 50 },
         ],
         xkey: 'y',
         ykeys: ['a'],
@@ -23,8 +23,10 @@
         gridEnabled: false,
         gridLineColor: 'transparent',
         barColors: ['#2C82BE'],
-        resize:true,
-        hideHover: 'auto'
+        resize: true,
+        hideHover: 'auto', 
+        xLabelMargin: 5,
+        gridTextSize : 9
     });
     
     // MORRIS BAR CHART
@@ -36,10 +38,10 @@
     Morris.Bar({
         element: 'demo-bar-02',
         data: [
-            { y: 'ภาค 1', a: 100 },
-            { y: 'ภาค 2', a: 75 },
-            { y: 'ภาค 3', a: 20},
-            { y: 'ภาค 4', a: 50 },
+            { y: 'พื้นที่ 1\n(ภาคกลาง)', a: 100 },
+            { y: 'พื้นที่ 2\n(ภาคตะวันออกเฉียงเหนือ)', a: 75 },
+            { y: 'พื้นที่ 3\n(ภาคเหนือ)', a: 20},
+            { y: 'พื้นที่ 4\n(ภาคใต้)', a: 50 },
         ],
         xkey: 'y',
         ykeys: ['a'],
@@ -48,7 +50,9 @@
         gridLineColor: 'transparent',
         barColors: ['#2C82BE'],
         resize:true,
-        hideHover: 'auto'
+        hideHover: 'auto', 
+        xLabelMargin: 5,
+        gridTextSize : 9
     });
      
      // MORRIS BAR CHART
@@ -60,10 +64,10 @@
     Morris.Bar({
         element: 'demo-bar-03',
         data: [
-            { y: 'ภาค 1', a: 100 },
-            { y: 'ภาค 2', a: 75 },
-            { y: 'ภาค 3', a: 20},
-            { y: 'ภาค 4', a: 50 },
+            { y: 'พื้นที่ 1\n(ภาคกลาง)', a: 100 },
+            { y: 'พื้นที่ 2\n(ภาคตะวันออกเฉียงเหนือ)', a: 75 },
+            { y: 'พื้นที่ 3\n(ภาคเหนือ)', a: 20},
+            { y: 'พื้นที่ 4\n(ภาคใต้)', a: 50 },
         ],
         xkey: 'y',
         ykeys: ['a'],
@@ -72,16 +76,18 @@
         gridLineColor: 'transparent',
         barColors: ['#4BCA81'],
         resize:true,
-        hideHover: 'auto'
+        hideHover: 'auto', 
+        xLabelMargin: 5,
+        gridTextSize : 9
     });
      
     Morris.Bar({
         element: 'demo-bar-04',
         data: [
-            { y: 'ภาค 1', a: 100 },
-            { y: 'ภาค 2', a: 75 },
-            { y: 'ภาค 3', a: 20},
-            { y: 'ภาค 4', a: 50 },
+            { y: 'พื้นที่ 1\n(ภาคกลาง)', a: 100 },
+            { y: 'พื้นที่ 2\n(ภาคตะวันออกเฉียงเหนือ)', a: 75 },
+            { y: 'พื้นที่ 3\n(ภาคเหนือ)', a: 20},
+            { y: 'พื้นที่ 4\n(ภาคใต้)', a: 50 },
         ],
         xkey: 'y',
         ykeys: ['a'],
@@ -90,16 +96,18 @@
         gridLineColor: 'transparent',
         barColors: ['#F77962'],
         resize:true,
-        hideHover: 'auto'
+        hideHover: 'auto', 
+        xLabelMargin: 5,
+        gridTextSize : 9
     });
      
     Morris.Bar({
         element: 'demo-bar-05',
         data: [
-            { y: 'ภาค 1', a: 100 },
-            { y: 'ภาค 2', a: 75 },
-            { y: 'ภาค 3', a: 20},
-            { y: 'ภาค 4', a: 50 },
+            { y: 'พื้นที่ 1\n(ภาคกลาง)', a: 100 },
+            { y: 'พื้นที่ 2\n(ภาคตะวันออกเฉียงเหนือ)', a: 75 },
+            { y: 'พื้นที่ 3\n(ภาคเหนือ)', a: 20},
+            { y: 'พื้นที่ 4\n(ภาคใต้)', a: 50 },
         ],
         xkey: 'y',
         ykeys: ['a'],
@@ -108,16 +116,18 @@
         gridLineColor: 'transparent',
         barColors: ['#86BEFF'],
         resize:true,
-        hideHover: 'auto'
+        hideHover: 'auto', 
+        xLabelMargin: 5,
+        gridTextSize : 9
     });
      
     Morris.Bar({
         element: 'demo-bar-06',
         data: [
-            { y: 'ภาค 1', a: 100 },
-            { y: 'ภาค 2', a: 75 },
-            { y: 'ภาค 3', a: 20},
-            { y: 'ภาค 4', a: 50 },
+            { y: 'พื้นที่ 1\n(ภาคกลาง)', a: 100 },
+            { y: 'พื้นที่ 2\n(ภาคตะวันออกเฉียงเหนือ)', a: 75 },
+            { y: 'พื้นที่ 3\n(ภาคเหนือ)', a: 20},
+            { y: 'พื้นที่ 4\n(ภาคใต้)', a: 50 },
         ],
         xkey: 'y',
         ykeys: ['a'],
@@ -126,7 +136,9 @@
         gridLineColor: 'transparent',
         barColors: ['#FFE480'],
         resize:true,
-        hideHover: 'auto'
+        hideHover: 'auto', 
+        xLabelMargin: 5,
+        gridTextSize : 9
     });
      
     // FLOT PIE CHART
@@ -150,7 +162,7 @@
                 show: true,
                 radius: 1,
                 formatter: function(label,point){
-                     return '<div style="text-align:center; color:#fff; font-weight: bold;padding-left: 15px;">' + (point.percent.toFixed(2) + '%</div>');
+                     return '<div style="text-align:center; color:#fff; font-weight: bold;padding: 5px;">' + (point.percent.toFixed(2) + '%</div>');
                 },
                 background: {
                     opacity: 0.8,
