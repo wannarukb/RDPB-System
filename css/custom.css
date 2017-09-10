@@ -31,6 +31,7 @@ fieldset {
     
 }
 */
+
 .font-th .table{
     font-size: 14px !important;
 }
@@ -137,6 +138,19 @@ fieldset {
 .margin-top--small{
     margin-top: 15px !important;
 }
+.margin-ver-0{
+    margin-top: 0px !important;
+    margin-bottom:  0px !important;
+}
+#page-title{
+    padding: 10px 0px;
+}
+.padding-no-top{
+    padding-left: 15px !important;
+    padding-right:  15px !important;
+    padding-bottom: 15px !important;
+    padding-top: 0px !important;
+}
 .padding-around-10{
     padding: 10px !important;
 }
@@ -162,9 +176,15 @@ fieldset {
     padding: 0 !important;
 }
 .font-th .control-label{
-    font-size: 1.3em !important;
+    font-size: 1em !important;
     padding-top: 0px !important;
-    font-weight: bold;
+    font-weight: normal;
+}
+.row {
+    margin: 10px -7.5px ;
+}
+.panel-body > .row, .panel-body > [class^="form-"] > .row {
+    margin: 20px 0px;
 }
 
 .text-dark{
@@ -175,11 +195,14 @@ fieldset {
     color: #54698D;
     font-size: 1em;
     font-weight: normal;
+    padding-top: 15px;
 }
 
 .text-body{
     color: #16325C;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 1.1em;
+    overflow-x: visible !important;
 }
 
 .text-body a{
@@ -201,6 +224,9 @@ fieldset {
     font-size: 1em !important;
     padding: 0px 5px !important;
      font-weight: normal;
+}
+.font-th .form-group input[type="text"]{
+     font-size: 1.25em !important;
 }
 .font-th .form-horizontal .form-group{
     margin-left: 0px !important;
@@ -493,6 +519,19 @@ snippet from Animate.css - zoomIn effect
     line-height: 15px !important;
 }
 
+.navbar-top-links > .open > a, .navbar-top-links > .open > a:focus {
+    background-color: #EAC850;
+    color: #1F3659 !important;
+}
+
+.navbar-top-links > li > a:hover {
+  background-color: #AF669B;
+  color: #1F3659 !important; 
+  transition: all 0.4s;
+}
+.head-list{
+    padding-top: 10px !important;
+}
 /* NAVBAR RESPONSIVE */
 /*======================================*/
 @media (max-width: 768px) {
@@ -680,26 +719,26 @@ Nav Bar - left
 
 .text-uploader{
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.2em;
     margin: 0;
 }
 
 .text-vdo-name{
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.2em;
     margin: 0;
     color: #0070D2;
 }
 
 .text-upload-date{
-    font-weight: bold;
+    font-weight: normal;
     text-align: right;
     margin: 0;
     margin-top: -5px;
 }
 
 .text-vdo-create .text-upload-date{
-    font-weight: bold;
+    font-weight: normal;
     width: 50%;
     float: left;
 }
@@ -1244,8 +1283,8 @@ fieldset[disabled] .btn-brand.focus {
 #page-content .nav>li {
     width: 33.33%;
     text-align: center;
-    font-size: 1.75rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 #page-content .nav-tabs>li>a {
@@ -1291,7 +1330,7 @@ fieldset[disabled] .btn-brand.focus {
     border-right-color: transparent;
     transition-duration: .5s;
     border-radius: 0px !important;
-    font-size: 1.3em !important;
+    font-size: 1.1em !important;
     padding: 0px 5px !important;
-    font-weight: bold;
+    font-weight: normal;
 }
