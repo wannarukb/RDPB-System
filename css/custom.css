@@ -13,7 +13,9 @@ ul,
 dl,
 fieldset {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+  font-weight: normal !important;
+}
 .float-right{
     float:right;
 }
@@ -108,7 +110,7 @@ fieldset {
 
 .font-size-form{
     font-size: 1.3em !important;
-    font-weight: bold !important;
+    font-weight: normal !important !important;
 }
 
 .margin-vertical--small{
@@ -198,6 +200,10 @@ fieldset {
     padding-top: 15px;
 }
 
+.table th{
+    font-weight: normal !important;
+}
+
 .text-body{
     color: #16325C;
     font-weight: normal;
@@ -237,8 +243,8 @@ fieldset {
 .font-th .font-big{
     font-size: 1.3em !important;
 }
-.text-bold{
-    font-weight: bold !important;
+.text-normal !important{
+    font-weight: normal!important;
 }
 .text-primary-color{
     color: #0070D2 !important;
@@ -252,7 +258,7 @@ fieldset {
     margin-bottom: 0px;
     font-size: 1.2em;
     line-height: 0.9;
-    font-weight: bold;
+    font-weight: normal !important;
 }
 
 .line-height--small{
@@ -282,7 +288,7 @@ fieldset {
 
 .font-th .tab-base .nav-tabs li a{
      font-size: 1.5em !important;
-    font-weight: bold;
+    font-weight: normal !important;
 }
 
 .font-th .form-group{
@@ -302,7 +308,7 @@ fieldset {
 }
 .font-th .section-title{
      font-size: 1.5em !important;
-    font-weight: bold;
+    font-weight: normal !important;
 }
 .tab-content{
     padding: 7px !important;
@@ -595,7 +601,7 @@ Nav Bar - left
 
 .active-child{
     background-color: #EAC850;
-    font-weight: bold;
+    font-weight: normal !important;
     color: #031A25 !important;
 }
 #mainnav-menu> li > a > .menu-title{
@@ -698,14 +704,14 @@ Nav Bar - left
 
 .text-logo{
     font-size: 2.5em;
-    font-weight: bold;
+    font-weight: normal !important;
     color: #16325C;
 }
 
 .login-des{
    
     line-height: 1.2;
-    font-weight: bold;
+    font-weight: normal !important;
     color: #FFF;
 }
 
@@ -718,13 +724,13 @@ Nav Bar - left
 }
 
 .text-uploader{
-    font-weight: bold;
+    font-weight: normal !important;
     font-size: 1.2em;
     margin: 0;
 }
 
 .text-vdo-name{
-    font-weight: bold;
+    font-weight: normal !important;
     font-size: 1.2em;
     margin: 0;
     color: #0070D2;
@@ -1252,10 +1258,14 @@ fieldset[disabled] .btn-brand.focus {
     right: 10px !important;
 }
 
+.scroll-top {
+    padding : 15px !important;
+}
+
 /*----------- status ----------*/
 .badge {
     text-shadow: none;
-    font-weight: bold;
+    font-weight: normal !important;
     background-color: #e0e5ee !important; 
     text-transform: uppercase;
     border-radius: 0.5rem;
@@ -1264,11 +1274,28 @@ fieldset[disabled] .btn-brand.focus {
     text-align: center;
 }
 
-.badge-pending {background-color: #fce883 !important; }
-.badge-default { background-color: #f4f6f9 !important; color:#54698d !important; }
-.badge-pass {  background-color:#41c8a0 /*#50cc7a */!important; color: #fff!important; }
-.badge-notpass {  background-color: #ef6e64 !important; color: #fff!important; }
-.badge-fullInfo { background-color: #0070D2 !important; color: #fff !important;}
+.badge-pending {
+     background-color:#41c8a0 !important; 
+    color: #FFF !important;
+}
+.badge-default { 
+/*    background-color: #f4f6f9 !important; */
+      background-color: #fce883 !important; 
+/*    color:#54698d !important; */
+}
+.badge-pass {  
+/*    background-color:#41c8a0 #50cc7a !important; */
+    background-color: #0070D2 !important; 
+    color: #fff !important;
+}
+.badge-notpass { 
+    background-color: #ef6e64 !important; 
+    color: #fff!important; 
+}
+.badge-fullInfo { 
+    background-color: #0070D2 !important; 
+    color: #fff !important;
+}
 
 /*----------- TAB --------------*/
 #page-content .nav-tabs{
@@ -1303,12 +1330,13 @@ fieldset[disabled] .btn-brand.focus {
     background: #FFF !important;
 }
 .section-title {
-    background: #1F3659;
-    color: #fff !important;
+    color: #1F3659 !important;
     padding: 5px 15px;
 }
 .section-title > a{
-    color: #fff !important;
+    
+/*    background: #E0EAFA;*/
+    color: #1F3659 !important;
 }
 
 .required{
