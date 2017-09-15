@@ -1285,7 +1285,7 @@ fieldset[disabled] .btn-brand.focus {
 }
 .badge-pass {  
 /*    background-color:#41c8a0 #50cc7a !important; */
-    background-color: #0070D2 !important; 
+    background-color: #f4f6f9 !important; 
     color: #fff !important;
 }
 .badge-notpass { 
@@ -1293,7 +1293,7 @@ fieldset[disabled] .btn-brand.focus {
     color: #fff!important; 
 }
 .badge-fullInfo { 
-    background-color: #0070D2 !important; 
+    background-color: #f4f6f9 !important; 
     color: #fff !important;
 }
 
