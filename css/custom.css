@@ -1286,7 +1286,7 @@ fieldset[disabled] .btn-brand.focus {
 .badge-pass {  
 /*    background-color:#41c8a0 #50cc7a !important; */
     background-color: #f4f6f9 !important; 
-    color: #fff !important;
+   color:#54698d !important;
 }
 .badge-notpass { 
     background-color: #ef6e64 !important; 
@@ -1294,7 +1294,7 @@ fieldset[disabled] .btn-brand.focus {
 }
 .badge-fullInfo { 
     background-color: #f4f6f9 !important; 
-    color: #fff !important;
+    color:#54698d !important;
 }
 
 /*----------- TAB --------------*/
